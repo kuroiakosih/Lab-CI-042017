@@ -21,7 +21,7 @@ Jenkins: http://jenkins-primary.jenkins.traefik.tnt-labs.org
 
 ## Deploying application using Rancher UI
 
-1. Create a new stack called ` labs-<user>`
+1. Create a new stack called ` labs-<user>` into the labs environment.
 
 2. Add your first service `app` using ` tutum/hello-world`. Don't forget to **Add TCP health check** on port 80.
 ![](images/service.png?raw=true)
